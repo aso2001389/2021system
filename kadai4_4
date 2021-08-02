@@ -2,7 +2,7 @@
 @startuml
 start
 :weather;
-if(weather==O)then(true)
+if(weather=O)then(true)
 :快晴です;
 else(false)
 if(weather==1)then(true)
