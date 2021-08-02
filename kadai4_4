@@ -1,0 +1,15 @@
+```uml
+@startuml
+start
+:weather;
+if(weather==O)then(true)
+:快晴です;
+else(false)
+if(weather==1)then(true)
+:雨です;
+else(false)
+:不明です;
+endif
+end
+@enduml
+```
